@@ -1,0 +1,40 @@
+.show-post {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.show-post-bg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+.show-post-conent {
+    position: relative;
+    max-width: 800px;
+    background-color: black;   
+    border-radius: 20px;
+}
+
+.show-post-conent img {
+    display: block;
+    width: 600px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.show-post-conent h4 {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
